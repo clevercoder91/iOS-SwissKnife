@@ -5,7 +5,9 @@ a small automation for ipa extraction, installation and static analysis
 Note: Ensure that SSh  is enabled. Frida is running on the jailbroken device. 
 Run the python main.py , Enter the ssh Credentials select the app and click on extract
 
-## Furthur updates
-1. Logs
-2. Installation via GUI
-3. Static Analysis
+###Requirement
+frida-tools==13.7.1 
+frida==16.7.19 
+
+Note: Install the Liberaries in virtual Environment. Make sure that frida version matches to the frida server in Your iOS device as well 
+
